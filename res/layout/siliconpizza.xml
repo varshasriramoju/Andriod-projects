@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="461dp"
+        android:text="Buy Now"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/addToCartButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="236dp"
+        android:layout_y="460dp"
+        android:text="Add to Cart"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/totalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="218dp"
+        android:layout_y="405dp"
+        android:hint="000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="405dp"
+        android:text="Total Cost :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="343dp"
+        android:text="cauliflower crust or gluten-free crust. Sauce: marinara sauce; Cheese: mozzarella, parmesan; Toppings: pepperoni, sausage, mushrooms, onions, bell peppers"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="305dp"
+        android:text="Ingridents"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="250dp"
+        android:text="195/-"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="235dp"
+        android:layout_y="245dp"
+        android:text="-"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_x="258dp"
+        android:layout_y="252dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="299dp"
+        android:layout_y="246dp"
+        android:text="+"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="61dp"
+        android:src="@drawable/silicianpizza" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="18dp"
+        android:text="SILICON PASTA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+</AbsoluteLayout>
